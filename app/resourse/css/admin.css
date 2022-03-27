@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.top-logo__container{
+    background-color: rgb(49, 49, 49);
+}
+.page-w{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 10px 25px;
+} 
+.logout{
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    float: right;
+}
+.logo{
+    display: inline-block;
+    color: rgb(255, 251, 0);
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.left-aside{
+    background-color: rgb(49, 49, 49);
+    display: inline-block;
+    height: 1000px;
+}
+.left-menu-catalog{
+    position: relative;
+}
+.left-menu-catalog:hover .sub-menu-admin{
+    display: block;
+}
+.sub-menu-admin{
+    content: "";
+    position: absolute;
+    background-color: rgb(49, 49, 49);
+    left: 100%;
+    top: 0;
+    height: 1000px;
+    display: none;
+}
+.left-aside a{
+    display: block;
+    padding: 15px 30px;
+    color: white;
+}
+.left-aside a:hover{
+    background-color: rgb(66, 66, 66);
+}
+.aside-form-container{
+    display: flex;
+}
+.description-option{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0;
+}
+.form input[type=text],
+.form input[type=password],
+.form select,
+.form textarea{
+    display: block;
+    width: 500px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: solid 1px rgb(255, 251, 0);
+    padding: 10px 0;
+
+}
+.form input[type=text]:active,
+.form input[type=password]:active,
+.form select:active,
+.form textarea:active,
+.form input[type=submit]:active,
+.form input[type=password]:focus,
+.form input[type=text]:focus,
+.form select:focus,
+.form textarea:focus{
+    border: none;
+    outline: none;
+    border-bottom: solid 1px rgb(49, 49, 49);
+}
+.form input[type=submit]{
+    width: 100%;
+    background-color:  rgb(49, 49, 49);
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form input[type=submit]:hover{
+    background-color:  rgb(63, 63, 63);
+}
+.form{
+    margin: 0 auto;
+}
+.form label{
+    font-size: 14px;
+}
+.register-login {
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(49, 49, 49);
+}
+.register-login a{
+    color: rgb(49, 49, 49);
+}
+.register-login a:hover{
+    text-decoration: underline;
+}
+.product-list{
+    padding: 30px;
+}
+caption{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;    
+}
+tr{
+    text-align: left;
+}
+td a{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    padding: 5px;
+    width: 100px;
+    color: white;
+}
+td a:hover{
+    background-color:  rgb(63, 63, 63);
+}
+table{
+    margin-bottom: 30px;
+}
+table, tr, td, th{
+    font-size: 16px;
+    padding: 5px 10px;
+    border-collapse: collapse;
+}
+.info-product{
+    padding: 30px;
+}
+.info-product-desc{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.info-product-db{
+    margin-bottom: 20px;
+    display: block;
+    font-size: 16px;
+}
+.create-button{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(49, 49, 49);
+}
+.create-button:hover{
+    background-color:  rgb(63, 63, 63);
+}
+
+
